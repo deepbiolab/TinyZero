@@ -1,6 +1,18 @@
 # TinyZero
 ![image](cover.png)
 
+TinyZero is a reproduction of [DeepSeek R1 Zero](https://github.com/deepseek-ai/DeepSeek-R1) in countdown and multiplication tasks. We built upon [veRL](https://github.com/volcengine/verl).
+
+Through RL, the 3B base LM develops self-verification and search abilities all on its own 
+
+You can experience the Ahah moment yourself for < $30 
+
+Twitter thread: https://x.com/jiayi_pirate/status/1882839370505621655
+
+Full experiment log: https://wandb.ai/jiayipan/TinyZero
+
+Paper's on it's way!
+
 
 ## Update: Quick start (For those who are interested on running it on 2 H100s/A100s
 
@@ -128,20 +140,7 @@ chmod +x ./scripts/train_tiny_zero_a100_grpo.sh
 -----
 
 
-TinyZero is a reproduction of [DeepSeek R1 Zero](https://github.com/deepseek-ai/DeepSeek-R1) in countdown and multiplication tasks. We built upon [veRL](https://github.com/volcengine/verl).
-
-Through RL, the 3B base LM develops self-verification and search abilities all on its own 
-
-You can experience the Ahah moment yourself for < $30 
-
-Twitter thread: https://x.com/jiayi_pirate/status/1882839370505621655
-
-Full experiment log: https://wandb.ai/jiayipan/TinyZero
-
-Paper's on it's way!
-
-
-## Installation
+## Original Installation
 
 ```
 conda create -n zero python=3.9
